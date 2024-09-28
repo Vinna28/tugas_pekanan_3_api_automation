@@ -4,8 +4,8 @@
   "description": "tugas api automation kelas QA Automation Sanbercode",
   "main": "index.js",
   "scripts": {
-    "test:customers": "npx mocha test/customers.test.mjs",
-    "test:categories": "npx mocha test/categories.test.mjs"
+    "test:customers": "npx mocha test/customers.test.mjs --timeout 5000 --reporter mochawesome",
+    "test:categories": "npx mocha test/categories.test.mjs --timeout 5000 --reporter mochawesome"
   },
   "author": "vinna",
   "license": "ISC",
